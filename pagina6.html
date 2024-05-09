@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>CONOCE TODOS LOS TRANJBAJOS Y REFERENCIAS QUE TENEMOS</title>
+    <title>Menu</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    nav a.active {
+      background-color: #555;
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .menu {
+      display: flex;
+      align-items: center;
+    }
+    .menu a {
+      margin-left: 20px;
+    }
+    .menu a:first-child {
+      margin-left: 0;
+    }
+    main {
+      padding: 80px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">NUESTRO TRABAJOS</div>
+    <div class="menu">
+      <a href="INDEX.HTML" class="active">INICIO</a>
+      <a href="pagina4.html">UBICACION</a>
+      <a href="pagina6.html">conoce nuestro trabajo</a>
+    </div>
+  </nav>
+    <!-- Add the reveal.js library and CSS styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/solarized.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h5>CONOCE TODOS LOS TRABAJOS Y REFERENCIAS QUE TENEMOS</h5>
+          <p></p>
+          <!-- Add a video element to embed a construction video -->
+          <video controls>
+            <source src="VIDEODECOLADO.mp4" type="video/mp4"alt="Construction project"width="500">
+            Your browser does not support the video tag.
+          </video>
+        </section>
+        
+        <section>
+            <video controls>
+                <source src="VIDEODETARIMAS.mp4" type="video/mp4"alt="Construction project"width="500">
+                Your browser does not support the video tag.
+              </video>
+        <!-- Add more slides as needed -->
+      </div>
+    </div>
+    
+    <!-- Initialize the reveal.js library -->
+    <script>
+      Reveal.initialize();
+    </script>
+  </body>
+</html>
